@@ -3,6 +3,8 @@ body {
 	font-size: 12px;
 	max-width: 960px;
 	margin: auto;
+	background-color: black;
+	color: white
     }
     h1 {
 	font-size: 3em;
@@ -31,6 +33,7 @@ body {
     
     i {
 	margin-right: .5em;
+	color: pink
     }
     
     p {
@@ -39,7 +42,7 @@ body {
     
     hr {
 	border: none;
-	background-color: lightgray;
+	background-color: pink;
 	height: 1px;
     }
     
@@ -48,5 +51,9 @@ body {
 	margin-bottom: 0;
     }
     #mainLeft {
-	border-right: 1px solid lightgray;
+	border-right: 1px solid pink;
+    }
+
+    a {
+	color: pink
     }
