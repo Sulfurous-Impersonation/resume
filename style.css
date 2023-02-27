@@ -18,9 +18,11 @@ body {
 	padding-bottom: 1em;
     }
     main { 
-	display: grid;
+	display: flow-root;
 	grid-template-columns: 40% 60%;
 	margin-top: 3em;
+	margin-left: 10em;
+	margin-right:10em;
     }
     header {
 	text-align: center;
@@ -33,7 +35,7 @@ body {
     
     i {
 	margin-right: .5em;
-	color: pink
+	color: white
     }
     
     p {
@@ -52,6 +54,14 @@ body {
     }
     #mainLeft {
 	border-right: 1px solid pink;
+    }
+
+    #grid {
+	display: flex
+    }
+
+    #sectionHeader {
+	border-top: 1px solid pink;
     }
 
     a {
